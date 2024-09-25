@@ -17,7 +17,7 @@ bool isEmpty() const {
 }
 
 bool isFull() const {
-    returnrear == SIZE - 1; 
+    return rear == SIZE - 1; 
 }
 void enqueue(int element) {
     if (isFull()) {
@@ -41,7 +41,8 @@ return element; }
 }
 void display() const { if(isEmpty()) {
 cout << "Queue is empty\n"; }else{
-cout << "Queue elements: "; f or(inti=front;i<=rear;++i){
+cout << "Queue elements: "; 
+for(int i=front;i<=rear;++i){
 cout << items[i] << " "; }
 cout << endl; }
 } };
