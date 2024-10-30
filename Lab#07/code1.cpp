@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 void printArray(int arr[],int start, int ending) {
-cout<<"AcLve items: ";
+cout<<"Actve items: ";
 for(int i=start; i<=ending; i++) {
 cout<<arr[i]<<" ";
 }
